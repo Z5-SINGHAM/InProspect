@@ -1,0 +1,29 @@
+{
+    "DAA": {
+        "SubjectCode": "310250"
+    },
+    "ESIOT": {
+        "SubjectCode": "310252"
+        },
+    "ESIOT_PR": {
+        "SubjectCode": "310258"
+        },
+    "SMD": {
+        "SubjectCode": "310253"
+        },
+    "SPOS": {
+        "SubjectCode": "310251"
+        },
+    "SPOS_PR": {
+        "SubjectCode": "310257"
+        },
+    "STC": {
+        "SubjectCode": "310255"
+        },
+    "WT": {
+        "SubjectCode": "310254"
+        },
+    "WT_PR": {
+        "SubjectCode": "310256"
+        }
+}

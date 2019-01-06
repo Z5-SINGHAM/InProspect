@@ -1,0 +1,86 @@
+{
+    "DAA": {
+        "SubjectCode": "310250"
+    },
+    "ESIOT": {
+        "SubjectCode": "310252"
+        },
+    "ESIOT_PR": {
+        "SubjectCode": "310258"
+        },
+    "SMD": {
+        "SubjectCode": "310253"
+        },
+    "SPOS": {
+        "SubjectCode": "310251"
+        },
+    "SPOS_PR": {
+        "SubjectCode": "310257"
+        },
+    "STC": {
+        "SubjectCode": "310255"
+        },
+    "WT": {
+        "SubjectCode": "310254"
+        },
+    "WT_PR": {
+        "SubjectCode": "310256"
+        },
+        "CG": {
+            "SubjectCode": "CSUA22174"
+            },
+        "DSF": {
+            "SubjectCode": "CSUA22173"
+            },
+        "FDC": {
+            "SubjectCode": "CSUA22175"
+            },
+        "LP2_PR": {
+            "SubjectCode": "CSUA22177"
+            },
+        "M-III": {
+            "SubjectCode": "CSUA22171"
+            },
+        "M-III_CE": {
+            "SubjectCode": "CSUA22172"
+            },
+        "PM": {
+            "SubjectCode": "CSUA22179"
+            },
+        "SD2_PR": {
+            "SubjectCode": "CSUA22178"
+            },
+        "SSEE": {
+            "SubjectCode": "CSUA22176"
+            },
+            "CC": {
+                "SubjectCode": "410253C"
+            },
+            "CP": {
+                "SubjectCode": "410252B"
+            },
+            "ERTOS": {
+                "SubjectCode": "410252C"
+            },
+            "HCI": {
+                "SubjectCode": "410253B"
+            },
+            "ICS": {
+                "SubjectCode": "410251"
+            },
+            "LP3_PR": {
+                "SubjectCode": "410254"
+            },
+            "LP4_PR": {
+                "SubjectCode": "410255"
+            },
+            "ML": {
+                "SubjectCode": "410250" 
+            },
+            "PWS2_PR": {
+                "SubjectCode": "410256"
+            },
+            "SCOA": {
+                "SubjectCode": "410252D"
+            }
+}

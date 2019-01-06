@@ -1,0 +1,32 @@
+{
+    "CC": {
+        "SubjectCode": "410253C"
+    },
+    "CP": {
+        "SubjectCode": "410252B"
+    },
+    "ERTOS": {
+        "SubjectCode": "410252C"
+    },
+    "HCI": {
+        "SubjectCode": "410253B"
+    },
+    "ICS": {
+        "SubjectCode": "410251"
+    },
+    "LP3_PR": {
+        "SubjectCode": "410254"
+    },
+    "LP4_PR": {
+        "SubjectCode": "410255"
+    },
+    "ML": {
+        "SubjectCode": "410250" 
+    },
+    "PWS2_PR": {
+        "SubjectCode": "410256"
+    },
+    "SCOA": {
+        "SubjectCode": "410252D"
+    }
+    }
