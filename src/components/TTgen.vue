@@ -124,10 +124,10 @@
         Batch3: <div>
             <br><br>
         Location: 
-        <!-- <select v-model="batch3.Location">
+        <select v-model="batch3.Location">
             <option v-for="location in locations" :key="location">{{location}}</option>
-        </select> -->
-        <input v-model="batch3.Location" type="text"/>
+        </select>
+        <!-- <input v-model="batch3.Location" type="text"/> -->
         <br><br><br>
         <!-- SubjectCode: 
         <select v-model="batch3.SubjectCode">
