@@ -22,6 +22,7 @@
     </select>
     <h1>Year :</h1>
     <select id="year" v-model="year">
+      <option value="2018">2018</option>
       <option value="2019">2019</option>
     </select>
 
