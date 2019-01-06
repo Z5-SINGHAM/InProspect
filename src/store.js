@@ -11,7 +11,7 @@ export default new Vuex.Store({
   state: {
     finalJSON: {},
     timings: ['08_00', '09_00', '10_15', '11_15', '13_15', '14_15', '15_15'],
-    locations: ["B001","B002","B003","B101","B102","B103","B104","B105","B201","B202","B203A","B203B","B203C","B204","B301","B302","B303","B304","A002","A102","A101"],
+    locations: ["","B001","B002","B003","B101","B102","B103","B104","B105","B201","B202","B203A","B203B","B203C","B204","B301","B302","B303","B304","B305","A002","A102","A101"],
     days: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
     staffEIDs: fac,
     staffs: Object.keys(fac),
