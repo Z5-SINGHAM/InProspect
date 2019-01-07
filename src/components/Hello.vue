@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img src="@/assets/logo.png" alt="Vue.js PWA">
     <h1>Department :</h1>
     <select id="dept" v-model='dept'>
       <option value="Computer">Computer</option>
@@ -97,5 +98,10 @@ li {
 
 a {
   color: #35495E;
+}
+
+img{
+  width: 200px;
+  height: auto;
 }
 </style>

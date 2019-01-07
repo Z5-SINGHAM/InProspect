@@ -188,7 +188,8 @@ export default {
         
         const medlec = Object.assign({},this.$data.lecture)
         this.$data.finalJSON[this.dayNow].push(medlec)
-        
+        console.log('medlec')
+        console.log(medlec)
         // this.$data.finalJSON[this.dayNow].push(this.$data.lecture)
         
         console.log("this.$data.finalJSON[this.dayNow]")
