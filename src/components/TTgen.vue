@@ -178,8 +178,21 @@ export default {
         this.$data.lecture['Time'] = this.$data.timeNow
         this.$data.lecture['SubjCode'] = this.$store.state.subjectEIDMap[this.$data.lecture['Subject']].SubjectCode
         this.$data.lecture['StaffEID'] = this.$store.state.staffEIDs[this.$data.lecture['Staff']]
-        this.$data.finalJSON[this.dayNow].push(this.$data.lecture)
-        console.log(this.$data.finalJSON[this.dayNow])
+        console.log('this.$data.lecture')
+        console.log(this.$data.lecture['Time'])
+        console.log(this.$data.lecture['SubjCode'])
+        console.log(this.$data.lecture['StaffEID'])
+        console.log(this.$data.lecture['Staff'])
+        console.log(this.$data.lecture['Subject'])
+        console.log(this.$data.lecture)
+        
+        const medlec = Object.assign({},this.$data.lecture)
+        this.$data.finalJSON[this.dayNow].push(medlec)
+        
+        // this.$data.finalJSON[this.dayNow].push(this.$data.lecture)
+        
+        console.log("this.$data.finalJSON[this.dayNow]")
+        console.log(this.dayNow)
     },
     pushEntryPractical () {
         this.$data.batch1['Time'] = this.$data.timeNow
@@ -200,22 +213,54 @@ export default {
         console.log('div')
         console.log(this.$store.state.Div)
         if (this.$store.getters['getDiv'] === 'A'){
-        this.$data.practical.Batches["A1"] = this.$data.batch1
-        this.$data.practical.Batches["A2"] = this.$data.batch2
-        this.$data.practical.Batches["A3"] = this.$data.batch3
+        const medbta1 = Object.assign({},this.$data.batch1)
+        const medbta2 = Object.assign({},this.$data.batch2)
+        const medbta3 = Object.assign({},this.$data.batch3)
+        this.$data.practical.Batches["A1"] = medbta1
+        this.$data.practical.Batches["A2"] = medbta2
+        this.$data.practical.Batches["A3"] = medbta3
+        console.log('This is A')
+        console.log(this.$data.practical.Batches["A1"])
+        console.log(this.$data.practical.Batches["A2"])
+        console.log(this.$data.practical.Batches["A3"])
         }
         if (this.$store.getters['getDiv'] === 'B'){
-        this.$data.practical.Batches["B1"] = this.$data.batch1
-        this.$data.practical.Batches["B2"] = this.$data.batch2
-        this.$data.practical.Batches["B3"] = this.$data.batch3
+        const medbtb1 = Object.assign({},this.$data.batch1)
+        const medbtb2 = Object.assign({},this.$data.batch2)
+        const medbtb3 = Object.assign({},this.$data.batch3)
+        this.$data.practical.Batches["B1"] = medbtb1
+        this.$data.practical.Batches["B2"] = medbtb2
+        this.$data.practical.Batches["B3"] = medbtb3
+        console.log('This is B')
+        console.log(this.$data.practical.Batches["B1"])
+        console.log(this.$data.practical.Batches["B2"])
+        console.log(this.$data.practical.Batches["B3"])
         }
         if (this.$store.getters['getDiv'] === 'C'){
-        this.$data.practical.Batches["C1"] = this.$data.batch1
-        this.$data.practical.Batches["C2"] = this.$data.batch2
-        this.$data.practical.Batches["C3"] = this.$data.batch3
+        const medbtc1 = Object.assign({},this.$data.batch1)
+        const medbtc2 = Object.assign({},this.$data.batch2)
+        const medbtc3 = Object.assign({},this.$data.batch3)    
+        this.$data.practical.Batches["C1"] = medbtc1
+        this.$data.practical.Batches["C2"] = medbtc2
+        this.$data.practical.Batches["C3"] = medbtc3
+        console.log('This is C')
+        console.log(this.$data.practical.Batches["C1"])
+        console.log(this.$data.practical.Batches["C2"])
+        console.log(this.$data.practical.Batches["C3"])
         }
+        console.log('this.$data.practical')
+        console.log(this.$data.practical['Batches'])
+        const btcgrp = Object.assign({}, this.$data.practical['Batches'])
+        console.log('btcgrp')
+        console.log(btcgrp)
 
-        this.$data.finalJSON[this.dayNow].push(this.$data.practical)
+        const medprac = Object.assign({"Subject": "Practical", "Type": "P", "Batches": btcgrp})
+        console.log('medPrac')
+        console.log(medprac)
+        
+        
+        
+        this.$data.finalJSON[this.dayNow].push(medprac)
         console.log(this.$data.finalJSON[this.$data.dayNow])
         console.log(this.$data.practical['Batches'])
     }
@@ -253,8 +298,6 @@ export default {
         "Type": "L"
       },
       practical: {
-            "Subject": "Practical",
-            "Type": "P",
             "Batches": {}
       },
       batch1: {

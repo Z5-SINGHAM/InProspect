@@ -1,0 +1,402 @@
+{ 
+    "_id": "ComputerSESem2A2018", 
+    "Monday": [ 
+        { 
+            "Subject": "Practical", 
+            "Type": "P", 
+            "Batches": { 
+                "A1": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A2": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": "", 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A3": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "CSUA22172", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "E998" 
+                }
+            } 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        } 
+    ], 
+    "Tuesday": [ 
+        { 
+            "Subject": "Practical", 
+            "Type": "P", 
+            "Batches": { 
+                "A1": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A2": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A3": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "CSUA22172", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "E998" 
+                } 
+            } 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        } 
+    ], 
+    "Wednesday": [ 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Subject": "Practical", 
+            "Type": "P", 
+            "Batches": { 
+                "A1": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A2": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A3": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "CSUA22172", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "E998" 
+                } 
+            } 
+        }, 
+        { 
+            "Subject": "Practical", 
+            "Type": "P", 
+            "Batches": { 
+                "A1": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": ""
+                }, 
+                "A2": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A3": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "CSUA22172", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "E998" 
+                } 
+            } 
+        } 
+    ], 
+    "Friday": [ 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Subject": "Practical", 
+            "Type": "P", 
+            "Batches": { 
+                "A1": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A2": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A3": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "CSUA22172", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "E998" 
+                } 
+            } 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        } 
+    ], 
+    "Thursday": [ 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Location": "", 
+            "StaffEID": "E035", 
+            "Staff": "", 
+            "Time": "15_30", 
+            "SubjCode": "CSUA22176", 
+            "Subject": "", 
+            "Type": "L" 
+        }, 
+        { 
+            "Subject": "Practical", 
+            "Type": "P", 
+            "Batches": 
+            { 
+                "A1": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A2": { 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "", 
+                    "Subject": "", 
+                    "day": "Friday", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "" 
+                }, 
+                "A3": { 
+                    "day": "Friday", 
+                    "Time": "14_15", 
+                    "Location": "", 
+                    "SubjCode": "CSUA22172", 
+                    "Subject": "", 
+                    "isAllocated": true, 
+                    "Staff": "", 
+                    "StaffEID": "E998" 
+                } 
+            } 
+        } 
+    ], 
+    "Saturday": [] 
+} 
