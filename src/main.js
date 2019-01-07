@@ -10,7 +10,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '../node_modules/material-design-icons/iconfont/material-icons.css'
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
-/* eslint-disable no-new */
+ /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,

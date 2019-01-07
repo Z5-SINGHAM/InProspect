@@ -14,7 +14,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">
@@ -57,7 +57,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">
@@ -100,7 +100,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">
@@ -143,7 +143,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">
@@ -186,7 +186,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">
@@ -229,7 +229,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">
@@ -271,7 +271,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">
@@ -313,7 +313,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">
@@ -356,7 +356,7 @@
       <div id="cardcontain">
             
             <b-tabs pills card v-model="tabIndex">
-              <b-tab v-for='day in days' :title='day' :key='day' active>
+              <b-tab v-for='day in days' :title='day' :key='day' >
                 <div class="card mb-3" id="wholecard" >
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                   <div class="card-body" id="cardbody">

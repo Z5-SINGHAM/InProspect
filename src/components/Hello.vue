@@ -32,6 +32,8 @@
     <br>
 
     <button @click='fun'>Submit</button>
+    <router-link to='/preview'><button>Go To Preview</button></router-link>
+    
   </div>
 </template>
 
